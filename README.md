@@ -1,6 +1,7 @@
 # 🚗💥Motor Vehicle Collisions Analysis, New York City – 2018
 
 ## Description of project
+
 Our project focuses on analysing vehicle collisions that occurred in New York City in 2018, 
 with particular attention to the dynamics leading to the collisions, the involved parties, 
 and the surrounding spatiotemporal conditions. To access this wide range of information, 
@@ -28,9 +29,10 @@ I.	Analysing if there are specific moments of the day when there is a higher con
 How to execute the code: a simple guide. 
 
 ## Datasets
+
 **Vehicles and Collisions**
-    Both data sources were obtained through Python API querying from NYC Open Data. The following libraries 
-    were used:
+
+Both data sources were obtained through Python API querying from NYC Open Data. The following libraries were used:
 
     - `pandas` for data management
     - `sodapy` for interacting with the Socrata API
@@ -38,19 +40,18 @@ How to execute the code: a simple guide.
     - `json` for manipulating JSON data
     - `ReadTimeout` from `requests.exceptions` for handling request timeouts
 
-    The API requires creating a user account and an app token. These operations can be performed by accessing the 
-    user area of the API documentation available at this link (https://data.cityofnewyork.us/login). 
-    Once logged into the personal area, follow these steps:
+The API requires creating a user account and an app token. These operations can be performed by accessing the user area of the API documentation available at this link (https://data.cityofnewyork.us/login). Once logged into the personal area, follow these steps:
 
-    1. Create a new user account.
-    2. Log into the personal area.
-    3. At the bottom of the page, select "Create New App Token."
+1. Create a new user account.
+2. Log into the personal area.
+3. At the bottom of the page, select "Create New App Token."
 
 
 **Weather**
-    To reproduce this code, you need to:
 
-    1. Install the following libraries:
+To reproduce this code, you need to:
+
+1. Install the following libraries:
     - `requests`
     - `BeautifulSoup` from `bs4`
     - `pandas`
@@ -59,12 +60,11 @@ How to execute the code: a simple guide.
     - `retry` from `retry_requests`
     - `time`
 
-    2. Next, download the dataset from the following link 
-    (https://data.cityofnewyork.us/City-Government/Broadband-Adoption-and-Infrastructure-by-Zip-Code/qz5f-yx82/about_data) 
-    by clicking on "Export" and selecting the CSV format.
+2. Next, download the dataset from the following link (https://data.cityofnewyork.us/City-Government/Broadband-Adoption-and-Infrastructure-by-Zip-Code/qz5f-yx82/about_data) by clicking on "Export" and selecting the CSV format.
 
 **Calendar**
-    To reproduce this code, you need to install the following libraries:
+
+To reproduce this code, you need to install the following libraries:
     - `requests`
     - `BeautifulSoup` from `bs4`
     - `pandas`
@@ -73,17 +73,17 @@ How to execute the code: a simple guide.
 
 ## Data cleaning
 **Vehicles_Cleaning.ipynb**
-    To reproduce this code, you need to install the following libraries:
+To reproduce this code, you need to install the following libraries:
         - `pandas` as `pd`
         - `numpy` as `np`
 
 **Collisions_Cleaning.ipynb**
-    To reproduce this code, you need to install the following libraries:
+To reproduce this code, you need to install the following libraries:
         - `geopy` and import `Nominatim` from `geopy.geocoders`
         - `pandas` as `pd`
 
 **Weather_Cleaning.ipynb**
-    To reproduce this code, you need to install the following library:
+To reproduce this code, you need to install the following library:
         - `pandas` as `pd`
 
 ## Data storage
