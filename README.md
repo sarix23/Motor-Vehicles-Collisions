@@ -1,8 +1,6 @@
 # Title: Motor Vehicle Collisions Analysis, New York City – 2018
 
-# ----------------------------------------------------------------------------------------------------------
-# Description of project
-# ----------------------------------------------------------------------------------------------------------
+## Description of project
 Our project focuses on analysing vehicle collisions that occurred in New York City in 2018, 
 with particular attention to the dynamics leading to the collisions, the involved parties, 
 and the surrounding spatiotemporal conditions. To access this wide range of information, 
@@ -28,10 +26,9 @@ H.	Verifying if there are certain days of the week or holidays when collisions o
 I.	Analysing if there are specific moments of the day when there is a higher concentration of collisions.
 
 How to execute the code: a simple guide. 
-# ----------------------------------------------------------------------------------------------------------
-# Datasets
-# ----------------------------------------------------------------------------------------------------------
-*Vehicles and Collisions*
+
+## Datasets
+**Vehicles and Collisions**
     Both data sources were obtained through Python API querying from NYC Open Data. The following libraries 
     were used:
 
@@ -50,7 +47,7 @@ How to execute the code: a simple guide.
     3. At the bottom of the page, select "Create New App Token."
 
 
-*Weather*
+**Weather**
     To reproduce this code, you need to:
 
     1. Install the following libraries:
@@ -66,7 +63,7 @@ How to execute the code: a simple guide.
     (https://data.cityofnewyork.us/City-Government/Broadband-Adoption-and-Infrastructure-by-Zip-Code/qz5f-yx82/about_data) 
     by clicking on "Export" and selecting the CSV format.
 
-*Calendar*
+**Calendar**
     To reproduce this code, you need to install the following libraries:
     - `requests`
     - `BeautifulSoup` from `bs4`
@@ -74,26 +71,22 @@ How to execute the code: a simple guide.
     - `datetime` from datetime
 
 
-# ----------------------------------------------------------------------------------------------------------
-# Data cleaning
-# ----------------------------------------------------------------------------------------------------------
-*Vehicles_Cleaning.ipynb*
+## Data cleaning
+**Vehicles_Cleaning.ipynb**
     To reproduce this code, you need to install the following libraries:
         - `pandas` as `pd`
         - `numpy` as `np`
 
-*Collisions_Cleaning.ipynb*
+**Collisions_Cleaning.ipynb**
     To reproduce this code, you need to install the following libraries:
         - `geopy` and import `Nominatim` from `geopy.geocoders`
         - `pandas` as `pd`
 
-*Weather_Cleaning.ipynb*
+**Weather_Cleaning.ipynb**
     To reproduce this code, you need to install the following library:
         - `pandas` as `pd`
 
-# ----------------------------------------------------------------------------------------------------------
-# Data storage
-# ----------------------------------------------------------------------------------------------------------
+## Data storage
 To create the database:
 
 1. Install `sqlite3` following the instructions at this link: (https://www.sqlite.org/download.html).
@@ -128,9 +121,7 @@ To create the database:
 
 8. Finally, return to the terminal and type `.exit` to close the sqlite3 session.
 
-# ----------------------------------------------------------------------------------------------------------
-# Data integration 
-# ----------------------------------------------------------------------------------------------------------
+## Data integration 
 Note: within each SQL file, the following string is present: "-- Active: 1707688166984@@127.0.0.1@1433." 
 To ensure that the code is executable within the created database, replace the connection identifier of 
 the database you have created on your device with the one present in the file.
@@ -141,9 +132,7 @@ Once the `data-integration.sql` file is opened in VSCode:
 3. Select the desired database to activate the connection. 
 4. Now the code is ready to be executed.
 
-# ----------------------------------------------------------------------------------------------------------
-# Data quality
-# ----------------------------------------------------------------------------------------------------------
+## Data quality
 Note: within each SQL file, the following string is present: "-- Active: 1707688166984@@127.0.0.1@1433." 
 To ensure that the code is executable within the created database, replace the connection identifier of 
 the database you have created on your device with the one present in the file.
@@ -154,9 +143,7 @@ Once the `data-quality.sql` file is opened in VSCode:
 3. Select the desired database to activate the connection. 
 4. Now the code is ready to be executed.
 
-# ----------------------------------------------------------------------------------------------------------
-# Data querying
-# ----------------------------------------------------------------------------------------------------------
+## Data querying
 Note: within each SQL file, the following string is present: "-- Active: 1707688166984@@127.0.0.1@1433." 
 To ensure that the code is executable within the created database, replace the connection identifier of 
 the database you have created on your device with the one present in the file.
@@ -168,8 +155,6 @@ Once the `data-querying.sql` file is opened in VSCode:
 4. Now the code is ready to be executed.
 
 
-# ----------------------------------------------------------------------------------------------------------
-# Authors
-# ----------------------------------------------------------------------------------------------------------
+## Authors
 Giulia Saresini
 Sara Nava
