@@ -1,4 +1,4 @@
-# Title: Motor Vehicle Collisions Analysis, New York City – 2018
+# 🚗💥Motor Vehicle Collisions Analysis, New York City – 2018
 
 ## Description of project
 Our project focuses on analysing vehicle collisions that occurred in New York City in 2018, 
